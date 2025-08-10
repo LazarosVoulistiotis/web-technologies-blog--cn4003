@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/10e98b93f6.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+   <!-- Custom Styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+    * {
+    box-sizing: border-box;
+}
+    </style>
+
+    <title>Blog</title>
+    <link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><a href="index.html"><span>Lazaros</span>Notes</a></h1>
+        </div>
+        <i class="fa-solid fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="index.html">Αρχική</a></li>
+            <li><a href="#footer">Σχετικά</a></li>
+            <li><a href="#footer">Υπηρεσίες</a></li>
+            <!--<li><a ref="#">Sign Up</a></li>
+            <li><a ref="#">Login</a></li> -->
+            <li>
+                <a href="register.html"> 
+                    <i class="fa-solid fa-user"></i> 
+                    Λάζαρος Βουλιστιώτης
+                    <i class="fa-solid fa-angle-down" style="font-size: .8em;"></i>
+                </a>
+              <ul>
+                <li><a href="../CN4003_ΤεχνολογίεςWEB__2678447/admin/posts/indexp.html">Πίνακας Ελέγχου</a></li>
+                <li><a href="login.html" class="logout">Αποσύνδεση</a></li>
+              </ul> 
+            </li>
+        </ul>
+    </header>
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+        <!-- Post Slider -->
+        <div class="post-slider">
+            <h1 class="slider-title">Δημοφιλείς Δημοσιεύσεις</h1> 
+            <i class="fas fa-chevron-left prev"></i> 
+            <i class="fas fa-chevron-right next"></i>
+
+            <div class="post-wrapper">
+
+                <div class="post ">
+                  <img src="images/artificial-intelligence-2167835_640.jpg" alt="https://pixabay.com/photos/artificial-intelligence-robot-ai-2167835/" class="slider-image">
+                  <div class="post-info">
+                    <h4><a href="single.html">H εποχή της Τεχνητής Νοημοσύνης έχει ξεκινήσει</a></h4>
+                    <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+                    &nbsp;
+                    <i class="far fa-calendar"> 15 Απριλίου 2024</i>
+                  </div>
+                </div>
+
+                <div class="post ">
+                    <img src="images/green-hill-side-with-windmills-by-blue-water.jpg" alt="https://www.shopify.com/stock-photos/photos/green-hill-side-with-windmills-by-blue-water" class="slider-image">
+                    <div class="post-info">
+                      <h4><a href="single.html">Μία ορθολογική ματιά στην πράσινη ενέργεια</a></h4>
+                      <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+                      &nbsp;
+                      <i class="far fa-calendar"> 14 Απριλίου 2024</i>
+                    </div>
+                  </div>
+
+                  <div class="post ">
+                    <img src="images/rocket-launch-693256_640.jpg" alt="https://pixabay.com/photos/rocket-launch-steam-smoke-trail-693256/" class="slider-image">
+                    <div class="post-info">
+                      <h4><a href="single.html">Η Κίνα εκτοξεύει πυραύλους από τη θάλασσα</a></h4>
+                      <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+                      &nbsp;
+                      <i class="far fa-calendar"> 12 Απριλίου 2024</i>
+                    </div>
+                  </div>
+
+                  <div class="post ">
+                    <img src="images/man-852770_1280.jpg" alt="https://pixabay.com/photos/man-face-masculine-view-852770/" class="slider-image">
+                    <div class="post-info">
+                      <h4><a href="single.html">Ενδυνάμωση των μελλοντικών ηγετών</a></h4>
+                      <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+                      &nbsp;
+                      <i class="far fa-calendar"> 12 Απριλίου 2024</i>
+                    </div>
+                  </div>
+
+                  <div class="post ">
+                    <img src="images/meat-3183070_1280.jpg" alt="https://pixabay.com/photos/meat-dumbbell-cucumber-pepper-food-3183070/" class="slider-image">
+                    <div class="post-info">
+                      <h4><a href="single.html">Υγιεινή Διατροφή και Γυμναστική</a></h4>
+                      <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+                      &nbsp;
+                      <i class="far fa-calendar"> 12 Απριλίου 2024</i>
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+        <!-- //Post Slider -->
+
+        <!-- Content -->
+        <div class="content clearfix">
+
+          <!-- Main Content -->
+         <div class="main-content">
+          <h1 class="recent-post-title">Πρόσφατες Δημοσιεύσεις</h1>
+
+          <div class="post clearfix"><figure>
+            <img src="images/rainforest-4350845_1280.jpg" alt="Rainforest, Path, Morning mist image. Free for use." class="post-image">
+            <div class="post-preview">
+              <h2><a href="single.html">Το πρόγραμμα Guacamaya χρησιμοποιεί AI για την παρακολούθηση του οικοσυστήματος</a></h2>
+              <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+              &nbsp;
+              <i class="far calendar">1 Μαΐου 2024</i>
+              <p class="preview_test">
+                Το Ινστιτούτο Alexander von Humboldt στην Μπογκοτά της Κολομβίας συνεργάστηκε με το Microsoft AI for Good Lab για να ξεκινήσει το έργο Guacamaya, το οποίο έχει ως στόχο να χρησιμοποιήσει την τεχνητή νοημοσύνη.
+              </p>
+              <a href="single.html" class="btn read-more">Περισσότερα</a>
+            </div>
+            <figcaption>Rainforest, Path, Morning mist image. Free for use. Πηγή: https://pixabay.com/photos/rainforest-path-morning-mist-asahi-4350845/</figcaption>
+          </figure>
+          </div>
+
+          <div class="post clearfix"><figure>
+            <img src="images/space-8575216_1280.jpg" alt="Space Station Man royalty-free stock illustration. Free for use & download" class="post-image">
+            <div class="post-preview">
+              <h2><a href="single.html">Η επιστήμη του "προβλήματος των 3 σωμάτων": Τι είναι γεγονός και τι φαντασία;</a></h2>
+              <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+              &nbsp;
+              <i class="far calendar">26 Απριλίου 2024</i>
+              <p class="preview_test">
+                Ο σύμβουλος της επιτυχημένης σειράς επιστημονικής φαντασίας και δύο άλλοι ερευνητές συζητούν για την απεικόνιση των επιστημόνων και των τεχνολογιών τους.
+
+              </p>
+              <a href="single.html" class="btn read-more">Περισσότερα</a>
+            </div>
+            <figcaption>Space Station Man royalty-free stock illustration. Free for use & download Πηγή: https://pixabay.com/illustrations/space-station-man-astronaut-earth-8575216/</figcaption>
+          </figure>
+          </div>
+          
+          <div class="post clearfix"><figure>
+            <img src="images/warships-1017_640.jpg" alt="Warships, Ships, Combat ships image. Free for use." class="post-image">
+            <div class="post-preview">
+              <h2><a href="single.html">Το Βασιλικό Ναυτικό σχεδιάζει να αναπτύξει το όπλο λέιζερ DragonFire από το 2027
+              </a></h2>
+              <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+              &nbsp;
+              <i class="far calendar">24 Απριλίου 2024</i>
+              <p class="preview_test">
+                Το Βασιλικό Ναυτικό του Ηνωμένου Βασιλείου πρόκειται να αρχίσει την εγκατάσταση των συστημάτων DragonFire laser directed energy weapon (LDEW) από το 2027 στο πλαίσιο ενός σχεδίου επιταχυνόμενης ανάπτυξης που ανακοινώθηκε στις 12 Απριλίου.
+              </p>
+              <a href="single.html" class="btn read-more">Περισσότερα</a>
+            </div>
+            <figcaption>Warships, Ships, Combat ships image. Free for use - Πηγή: https://pixabay.com/photos/warships-ships-combat-ships-usa-1017/</figcaption>
+          </figure>
+          </div>
+          
+          <div class="post clearfix"><figure>
+            <img src="images/monitor-1307227_640.jpg" alt="Monitor Binary Binary System royalty-free stock illustration. Free for use & download." class="post-image">
+            <div class="post-preview">
+              <h2><a href="single.html">Παγκόσμια Κατάταξη Πανεπιστημίων 2024 ανά γνωστικό αντικείμενο: επιστήμη των υπολογιστών
+              </a></h2>
+              <i class="far fa-user">Λάζαρος Βουλιστιώτης</i>
+              &nbsp;
+              <i class="far calendar">20 Απριλίου 2024</i>
+              <p class="preview_test">
+                Ο πίνακας για το γνωστικό αντικείμενο της επιστήμης των υπολογιστών χρησιμοποιεί τους ίδιους αξιόπιστους και αυστηρούς δείκτες επιδόσεων με την παγκόσμια κατάταξη πανεπιστημίων Times Higher Education World University Rankings 2024           
+              </p>
+              <a href="single.html" class="btn read-more">Περισσότερα</a>
+            </div>
+            <figcaption>Monitor Binary Binary System royalty-free stock illustration. Free for use & download - Πηγή: https://pixabay.com/illustrations/monitor-binary-binary-system-1307227/</figcaption>
+          </figure>
+          </div>
+
+         </div>
+         <!-- //Main Content -->
+
+         <div class="sidebar">
+
+          <div class="section search">
+            <h2 class="section_title">Αναζήτηση</h2>
+            <form action="index.html" method="post">
+              <input type="text" name="search-term" class="text-input" placeholder="Αναζήτηση...">
+            </form>
+          </div>
+
+          <div class="section topics">
+            <h2 class="section-title">Θέματα</h2>
+            <ul>
+              <li><a href="#">Ποιήματα</a></li>
+              <li><a href="#">Αποφθέγματα</a></li>
+              <li><a href="#">Επιστημονική Φαντασία</a></li>
+              <li><a href="#">Βιογραφία</a></li>
+              <li><a href="#">Κίνητρα</a></li>
+              <li><a href="#">Έμπνευση</a></li>
+              <li><a href="#">Μαθήματα Ζωής</a></li>
+            </ul>
+          </div>
+
+         </div>
+
+        </div>
+        <!-- // Content -->
+
+    </div>
+    <!-- //Page Wrapper -->
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h1 class="logo-text"><span>Lazaros</span>Notes</h1>
+          <p>LazarosNotes είναι το προσωπικό μου ιστολόγιο όπου μοιράζομαι ενδιαφέροντα θέματα. Ελπίζω να το απολαύσετε και να συμμετάσχετε στη συζήτηση.</p>
+          <div class="contact">
+            <span><i class="fas fa-phone"></i>  &nbsp; 6989595794</span>
+            <span><i class="fas fa-envelope"></i>  &nbsp; info@lazarosvoulistiotis@hotmail.com</span>
+          </div>
+          <div class="socials">
+            <a href="https://www.facebook.com/" target='blank'><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target='blank'><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/?lang=el" target='blank'><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/" target='blank'><i class="fab fa-youtube"></i></a>
+          </div>
+
+        </div>
+        <div class="footer-section links">
+          <h2>Γρήγοροι Σύνδεσμοι</h2>
+          <br>
+          <ul>
+            <li><a href="#">Εκδηλώσεις</a></li>
+              <li><a href="#">Ομάδα</a></li>
+              <li><a href="#">Μέντορες</a></li>
+              <li><a href="#">Συλλογή</a></li>
+              <li><a href="#">Όροι και Προϋποθέσεις</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-form">
+          <h2>Επικοινωνήστε μαζί μας</h2>
+          <br>
+          <form action="index.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Η διεύθυνση email σας...">
+            <textarea rows="4" name="message" class="text-input contact-input" placeholder="Το μήνυμά σας..."></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Αποστολή</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; Σχεδιάστηκε από τον Λάζαρο Βουλιστιώτη
+      </div>
+    </div>
+    <!-- //Footer -->    
+
+    <!-- JQuerry CDNJS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Slick Carousel-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--Custom Script-->
+    <script src="js/scripts.js"></script>
+
+
+</body>
+</html>
